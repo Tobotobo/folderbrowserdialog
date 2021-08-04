@@ -37,7 +37,7 @@ func New() *FolderBrowserDialog {
 
 // ----------------------------------------------------------------
 
-func (dlg *FolderBrowserDialog) Show() (accepted bool, selectedPath string) {
+func (dlg *FolderBrowserDialog) Show() (selectedPath string, accepted bool) {
 	owner := dlg.InnerValue.Owner
 	title := dlg.InnerValue.Description
 	rootDirPath := dlg.InnerValue.RootFolder
@@ -57,7 +57,7 @@ func (dlg *FolderBrowserDialog) Show() (accepted bool, selectedPath string) {
 	return
 }
 
-func Show() (accepted bool, folderPath string) {
+func Show() (folderPath string, accepted bool) {
 	dlg := New()
 	return dlg.Show()
 }

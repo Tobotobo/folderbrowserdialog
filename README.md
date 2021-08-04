@@ -11,7 +11,7 @@ import (
 )
 
 func main() {
-	if ok, selectedPath := folderbrowserdialog.Show(); ok {
+	if selectedPath, ok := folderbrowserdialog.Show(); ok {
 		fmt.Println(selectedPath)
 	} else {
 		fmt.Println("Cancel")

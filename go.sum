@@ -1,7 +1,7 @@
 github.com/Tobotobo/msgbox v0.3.0 h1:Zqjlcc/MDwu8YxRBbpNCKK4PaFtsy2WLDW8g0NMSnpk=
 github.com/Tobotobo/msgbox v0.3.0/go.mod h1:gHMjJs5uXP+GAzHx4GWhRaU1zM7Qg0cZ/KO9D4CVUVk=
-github.com/Tobotobo/shbrowseforfolder v0.1.0 h1:n7370n4NOogX1go/+Cc7e0ey3tvzDfClndwkcXbO2ks=
-github.com/Tobotobo/shbrowseforfolder v0.1.0/go.mod h1:iRLDB7qp3IsdQ17M5Qs3T+VCXD86pcsJbHMXm7fmenE=
+github.com/Tobotobo/shbrowseforfolder v0.2.0 h1:c8Of9Z3mQnqEJ5m3p7Vxw7pfTx0vAC49ZbFEPNo/YuM=
+github.com/Tobotobo/shbrowseforfolder v0.2.0/go.mod h1:iRLDB7qp3IsdQ17M5Qs3T+VCXD86pcsJbHMXm7fmenE=
 github.com/lxn/walk v0.0.0-20210112085537-c389da54e794 h1:NVRJ0Uy0SOFcXSKLsS65OmI1sgCCfiDUPj+cwnH7GZw=
 github.com/lxn/walk v0.0.0-20210112085537-c389da54e794/go.mod h1:E23UucZGqpuUANJooIbHWCufXvOcT6E7Stq81gU+CSQ=
 github.com/lxn/win v0.0.0-20210218163916-a377121e959e h1:H+t6A/QJMbhCSEH5rAuRxh+CtW96g0Or0Fxa9IKr4uc=

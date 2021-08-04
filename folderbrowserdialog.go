@@ -48,7 +48,7 @@ func (dlg *FolderBrowserDialog) Show() (selectedPath string, accepted bool) {
 		flags |= shbrowseforfolder.BIF_NONEWFOLDERBUTTON
 	}
 
-	accepted, selectedPath, err := shbrowseforfolder.Show(owner, title, rootDirPath, initSelectedPath, flags)
+	selectedPath, accepted, err := shbrowseforfolder.Show(owner, title, rootDirPath, initSelectedPath, flags)
 	if err != nil {
 		panic(err)
 	}
